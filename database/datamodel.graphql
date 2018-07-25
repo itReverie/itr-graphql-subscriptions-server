@@ -1,0 +1,16 @@
+type Traveller {
+  id: ID! @unique
+  createdAt: DateTime!
+  updatedAt: DateTime!
+  name: String!
+  messages: [Message!]! @relation(name: "MessagesFromTraveller")
+}
+
+type Message {
+  id: ID! @unique
+  createdAt: DateTime!
+  updatedAt: DateTime!
+  text: String!
+  sentBy: Traveller!  @relation(name: "MessagesFromTraveller")
+}
+
