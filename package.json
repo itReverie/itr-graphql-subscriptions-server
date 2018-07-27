@@ -1,0 +1,25 @@
+{
+  "name": "itr-graphql-subscriptions-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itReverie/itr-graphql-subscriptions-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/itReverie/itr-graphql-subscriptions-server/issues"
+  },
+  "homepage": "https://github.com/itReverie/itr-graphql-subscriptions-server#readme",
+  "dependencies": {
+    "apollo-server": "^2.0.0",
+    "graphql": "^0.13.2"
+  }
+}
